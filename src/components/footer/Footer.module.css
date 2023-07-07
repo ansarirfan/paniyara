@@ -1,0 +1,104 @@
+.cFooterWrapper{
+    width: 100%;
+    margin-top: 5rem;
+
+}
+
+.cFooterWrapper>hr{
+    width: 100%;
+    height: 1px;
+    background: white;
+    margin-top: 1rem;
+    border: none ;
+}
+
+.cFooter{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.logo{
+    display: flex;
+    align-items: flex-start;
+    gap: 1px;
+}
+
+.logo>img{
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+.logo>span{
+    font-weight: 5000;
+    font-size: 1rem;
+}
+
+.block{
+    display: flex;
+    flex-direction: column;
+    max-width: 12rem;
+    gap: 1rem;
+}
+
+.detail{
+    display: flex;
+    flex-direction: column;
+    width: inherit;
+    font-size: 0.7rem;
+    gap: 1rem;
+    font-style: italic;
+}
+
+.detail>span:nth-of-type(1){
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1.2rem;
+}
+ .pngLine{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+ }
+
+ .pngLine:hover{
+    cursor: pointer;
+    color: yellow;
+ }
+
+ .icon{
+    width: 25px;
+ }
+
+ .copyRight{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 0.65rem;
+    margin-top: 2rem;
+ } 
+
+ @media screen and (max-width:640px){
+    .cFooter{
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        gap: 2rem;
+        font-size: 1.7rem;
+    }
+ }
+
+ @media screen and (max-width:640px){
+    .cFooter{
+        justify-content: center;
+    }
+    .logo{
+        display: none;
+    }
+ }
+
+ 
+ 
+
+ 
